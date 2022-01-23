@@ -1,14 +1,15 @@
 #main_Home{
+    background-color: #020514;
     display: flex;
     flex-direction: column;
 }
 
 .section-home {
-    align-items: center;
-    justify-content: center;
     display: flex;
     height: 100vh;
     padding: 0rem 5rem;
+    align-items: center;
+    justify-content: center;
     color: #ffffff;
 }
 
@@ -17,6 +18,7 @@
 }
 
 #welcome_Home {
+    margin-top: 2.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,6 +34,7 @@
 
 #welcome_Home button {
     border: none;
+    border-radius: 0.5rem;
     width: 40%;
     margin: 2.5rem;
     padding: 1.2rem;
@@ -51,5 +54,112 @@
 }
 
 .image-welcome {
-    width: 40%;
+    width: 45%;
+}
+
+.image-section-division {
+    width: auto;
+    height: 65%;
+}
+
+.welcome-content-section {
+    width: 50%;
+    padding: 2rem;
+}
+
+.welcome-content-section h3 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+.welcome-content-section p {
+    font-size: 1.35rem;
+    color: #C0C0C0;
+}
+
+.welcome-content-section button {
+    border: none;
+    border-radius: 0.5rem;
+    margin-top: 1.5rem;
+    padding: 1rem 5rem;
+    font-size: 1.1rem;
+    background-color: #0063e5;
+    color: #ffffff;
+}
+
+.background-image {
+    background-image: url("../../Images/welcome_section3.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    background-size: 90%;
+}
+
+.division {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+.division h3 {
+    margin-bottom: 1.7rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.division p {
+    width: 80%;
+    font-size: 1.25rem;
+    color: #C0C0C0;
+}
+
+#division_Device {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 2rem;
+}
+
+#device_Section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.device-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+}
+
+.device-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 55%;
+    width: 25%;
+}
+
+.device-section h3 {
+    margin: 1.5rem 0rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.device-icon {
+    width: 100%;
+    height: auto;
+}
+
+.device-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.device-content p {
+    margin-bottom: 0.35rem;
+    color: #C0C0C0;
 }
