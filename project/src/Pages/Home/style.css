@@ -1,0 +1,55 @@
+#main_Home{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-home {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    padding: 0rem 5rem;
+    color: #ffffff;
+}
+
+.section-column {
+    flex-direction: column;
+}
+
+#welcome_Home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#welcome_Home h1 {
+    width: 45%;
+    margin-bottom: 2.5rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+#welcome_Home button {
+    border: none;
+    width: 40%;
+    margin: 2.5rem;
+    padding: 1.2rem;
+    font-size: 1rem;
+    background-color: #0063e5;
+    color: #ffffff;
+}
+
+#welcome_Home p {
+    margin: 0.7rem;
+    color: #C0C0C0;
+}
+
+#welcome_Home a {
+    font-size: 1.2rem;
+    border-bottom: 1px solid #ffffff;
+}
+
+.image-welcome {
+    width: 40%;
+}
