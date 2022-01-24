@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from "../../Components/Header";
+import Header from "../../Components/HeaderHome";
 import WelcomeImage from "../../Images/disney+_Combo.png"
 import WelcomeSection1 from "../../Images/welcome_section1.png";
 import WelcomeSection2 from "../../Images/welcome_section2.jpeg";
@@ -7,7 +7,6 @@ import IconTV from "../../Images/TV.png";
 import IconComputer from "../../Images/Computer.png";
 import IconPhone from "../../Images/Phone.png";
 import IconGames from "../../Images/Games.png";
-
 import './style.css';
 
 export default function Home() {

@@ -1,0 +1,40 @@
+#main_Header {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 5rem;
+    padding: 1rem 4rem;
+    background-color: #090B13;
+    opacity: 0.9;
+}
+
+#logo_Disney {
+    height: 100%;
+    cursor: pointer;
+}
+
+#content_Header {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;    
+}
+
+#content_Header p {
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+#user {
+    background-image: url("../../Images/user.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 7rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
