@@ -14,15 +14,15 @@ export default function Home() {
     async function goLink() {
         window.location.href = "https://www.disneyplus.com/pt-br/sign-up?type=bundle"
     }
-    
-    return(
+
+    return (
         <main id="main_Home">
-             <Header />
+            <Header />
             <div className='section-home section-column bunner-welcome'>
                 <section id="welcome_Home">
                     <h1>Com o Combo+, você pode aproveitar o Disney+ e o Star+ por um preço único.</h1>
-                    <img className='image-welcome' src={WelcomeImage}/>
-                    <button onClick={goLink}> 
+                    <img className='image-welcome' src={WelcomeImage} />
+                    <button onClick={goLink}>
                         ASSINE POR R$ 45,90*
                     </button>
                     <p>*O preço pode variar caso a assinatura seja feita através de outras plataformas.</p>
@@ -56,7 +56,7 @@ export default function Home() {
                     <h1 className='device-title'>Disponível nos seus dispositivos favoritos</h1>
                     <section id='division_Device'>
                         <article className='device-section'>
-                            <img src={IconTV} className='device-icon'/>
+                            <img src={IconTV} className='device-icon' />
                             <h3>TV</h3>
                             <div className='device-content'>
                                 <p>Amazon Fire TV</p>
@@ -69,7 +69,7 @@ export default function Home() {
                             </div>
                         </article>
                         <article className='device-section'>
-                            <img src={IconComputer} className='device-icon'/>
+                            <img src={IconComputer} className='device-icon' />
                             <h3>Computador</h3>
                             <div className='device-content'>
                                 <p>Chrome OS</p>
@@ -78,7 +78,7 @@ export default function Home() {
                             </div>
                         </article>
                         <article className='device-section'>
-                            <img src={IconPhone} className='device-icon'/>
+                            <img src={IconPhone} className='device-icon' />
                             <h3>Celulares e tablets</h3>
                             <div className='device-content'>
                                 <p>Tablets Amazon Fire</p>
@@ -87,7 +87,7 @@ export default function Home() {
                             </div>
                         </article>
                         <article className='device-section'>
-                            <img src={IconGames} className='device-icon'/>
+                            <img src={IconGames} className='device-icon' />
                             <h3>Videogames</h3>
                             <div className='device-content'>
                                 <p>Ps4</p>

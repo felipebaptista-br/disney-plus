@@ -4,8 +4,8 @@ import Header from "../../Components/HeaderPlatform";
 import './style.css';
 
 export default function Platform() {
-    
-    return(
+
+    return (
         <main id="main_Platform">
             <Header />
             <div id="content_Platform">
